@@ -20,6 +20,7 @@ def gene_activation_code(number, length):
             result[keys] = 1
     for key in result:
         print key
+    return result
 
 if __name__ == "__main__":
     gene_activation_code(200, 21)

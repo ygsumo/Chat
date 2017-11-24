@@ -1,9 +1,6 @@
 import pymysql
 import activeCode
 
-
-
-
 conn = pymysql.Connect(
     host='localhost',
     port=3306,
